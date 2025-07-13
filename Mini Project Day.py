@@ -15,7 +15,7 @@ def add_student():
     print("Student Added ! \n")
 def display_all():
     print("\n All students")
-    with open("students.txt","r") as f:
+    with open("students.txt","r") as f: 
         print(f.read())
 def search_student():
     search_name=input("enter name to search")
